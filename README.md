@@ -1,2 +1,17 @@
-# Tic-tac-toe-in-C
-Tic Tac Toe game written in C language.  This game allows two players to play on a 3x3 grid by entering  coordinates, and the program detects and displays the winner or draw automatically.  Features: - 2 player mode - Checks win and draw conditions - Simple and clean console design - Easy to run on any C compiler
+## Tic Tac Toe in C
+
+This is a console-based Tic Tac Toe game built using C language. 
+It supports two-player mode and allows players to input row and column values (0, 1, 2) to mark their choices. 
+After each move, the board is updated and displayed on the console.
+
+### Features
+- Two-player mode (X and O)
+- Input validation for row and column
+- Prevents move overwriting
+- Winner detection for rows, columns and diagonals
+- Detects a tie (draw)
+- Board is printed after every valid move
+
+### How to Run
+Compile using any C compiler such as GCC:
+
